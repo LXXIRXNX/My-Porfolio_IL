@@ -1,0 +1,13 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.Home {
+    
+}
