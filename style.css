@@ -1,7 +1,7 @@
 .logo {
     width: 100px;
     height: 100px;
-    background-color: grey;
+    background-color: black;
     border-radius: 50%;
     position: absolute;
     top: 20px;
@@ -9,5 +9,39 @@
 }
 
 .Home {
-    
+    font-family: sans-serif;
+    background-color: White;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.Work {
+    font-family: sans-serif;
+    background-color: White;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.Contact {
+    font-family: sans-serif;
+    background-color: White;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    right: 85px;
+}
+
+.Introduction {
+    font-family: sans-serif;
+    font-size: 38px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
 }
