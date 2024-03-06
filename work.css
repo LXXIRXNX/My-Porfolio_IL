@@ -1,0 +1,107 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    margin-left: 50px;
+}
+
+.buttonWork {
+    font-family: sans-serif;
+    background-color: White;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    right: 340px;
+}
+
+.buttonAboutMe {
+    font-family: sans-serif;
+    background-color: White;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    right: 205px;
+}
+
+.buttonContact {
+    font-family: sans-serif;
+    background-color: White;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    right: 85px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.UIUXcontainer {
+    background-color: #E7E7E7;
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.architectureContainer {
+    background-color: #E7E7E7;
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.othersContainer{
+    background-color: #E7E7E7;
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.footerContainer {
+    background-color: #E8DCD0;
+    width: absolute;
+    padding: 20px;
+    border: 1px;
+    color: black;
+    position: relative;
+    margin-top: 500px;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
