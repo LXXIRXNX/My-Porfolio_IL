@@ -1,11 +1,10 @@
 .logo {
-    width: 100px;
-    height: 100px;
-    background-color: navy;
-    border-radius: 50%;
+    width: 150px;
+    height: 20px;
+    background-color: #000DFF;
     position: absolute;
-    top: 20px;
-    margin-left: 50px;
+    top: 75px;
+    margin-left: 100px;
 }
 
 .buttonWork {
@@ -18,14 +17,14 @@
     right: 340px;
 }
 
-.buttonAboutMe {
+.buttonAbout {
     font-family: sans-serif;
     background-color: White;
     padding: 10px 30px;
     border-radius: 20px;
     position: absolute;
     top: 50px;
-    right: 205px;
+    right: 218px;
 }
 
 .buttonContact {
@@ -38,30 +37,78 @@
     right: 85px;
 }
 
-.h1 {
-    font-family: sans-serif;
-    font-size: 38px;
-    text-align: left;
-    margin-top: 300px;
-    margin-left: 100px;
+.aboutPage img {
+    width: 500px;
+    height: 500px;
+    margin-top: 350px;
+    margin-left: 150px;
+}
+
+.blueSection {
+    width: 500px;
+    height: 1700px;
+    margin-top: -250px;
+    margin-left: 150px;
+    background-color: #000DFF;    
+}
+
+.blueExperience {
+    color: white;
+    margin-left: 50px;
+}
+
+.blueEducation {
+    color: white;
+    margin-left: 50px;
+}
+
+.blueTravel {
+    color: white;
+    margin-left: 50px;
+}
+
+.row {
+    display: flex;
 }
 
 .inline-text {
-    display: inline-block;
-    font-size: 18px;
-    margin-top: 100px;
+    font-size: 22px;
+    margin-top: 600px;
     margin-left: 100px;
+    margin-right: 100px;
 }
 
-.footerContainer {
-    background-color: #E8DCD0;
-    width: absolute;
-    padding: 20px;
-    border: 1px;
-    color: black;
-    position: relative;
-    margin-top: 500px;
+h1 {
     font-family: sans-serif;
-    font-size: 12px;
-    text-align: center;
+    font-size: 32px;
 }
+
+.skillButtons {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #000DFF;
+    padding: 20px 50px;
+    border-radius: 20px;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.footerEmail {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-style: bold;
+    margin-top: 200px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.letsGetinTouch {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    margin-top: 250px;
+    margin-left: 100px;
+    position: absolute;
+}
+
