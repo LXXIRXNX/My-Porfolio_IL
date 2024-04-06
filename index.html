@@ -44,6 +44,11 @@
             padding: 20px 60px;
             text-decoration: none;
         }
+
+        .navbar ul li a:hover {
+            background-color: none;
+            color: #000DFF;
+        }
     </style>
 </head>
 
@@ -54,9 +59,12 @@
             <img src="Logo.png">
         </a>
         <ul>
-            <li><a href="contact.html" oneclick="showSection ('contacts')">Contacts</a></li>
-            <li><a href="Aboutme.html" oneclick="showSection ('about')">About</a></li>
-            <li><a href="work.html" oneclick="showSection ('works')">Works</a></li>
+            <li><a href="contact.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('contacts')">Contacts</a></li>
+            <li><a href="Aboutme.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('about')">About</a></li>
+            <li><a href="work.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('works')">Works</a></li>
         </ul>
     </div>
 
@@ -250,6 +258,30 @@
     </footer>
 
     <script>
+
+        // JavaScript function for hover effect
+        function hoverEffect(element) {
+            element.style.backgroundColor = 'none';
+            element.style.color = '000DFF';
+        }
+
+        // JavaScript function to reset hover effect
+        function resetEffect(element) {
+            element.style.backgroundColor = 'none';
+            element.style.color = '000DFF';
+        }
+
+        // JavaScript function to show/hide sections
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('section');
+            sections.forEach(function (section) {
+                section.style.display = 'none';
+            });
+
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        // JavaScript function to swift pages
         function showSection(sectionId) {
             // Hide all sections
             var sections = document.querySelectorAll('section');
