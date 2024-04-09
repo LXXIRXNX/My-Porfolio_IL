@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Aboutme.css" type="text/css">
+
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 50px;
+            padding: 0;
+            font-family: sans-serif;
+            font-size: 22px;
+        }
+
+        .navbar {
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .navbar ul li {
+            float: right;
+        }
+
+        .navbar ul li a {
+            display: blck;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar-brand {
+            float: left;
+            padding: 20px 60px;
+            text-decoration: none;
+        }
+
+        .navbar ul li a:hover {
+            background-color: none;
+            color: #000DFF;
+        }
+    </style>
+</head>
+
+<body>
+    <!-----------------Navigation Bar Here-------------->
+    <div class="navbar">
+        <a class="navbar-brand" href="index.html">
+            <img src="Logo.png">
+        </a>
+        <ul>
+            <li><a href="contact.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('contacts')">Contacts</a></li>
+            <li><a href="Aboutme.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('about')">About</a></li>
+            <li><a href="work.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('works')">Works</a></li>
+        </ul>
+    </div>
+
+    <!-------------------Experience Here------------------>
+    <section class="row">
+        <div class="aboutPage">
+            <img src="Images/myself.png" alt="myself">
+            <div class="blueBox">
+                <div class="blueTexts">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1>Experience</h1>
+                    <h2>UX Designer</h2>
+                    <p>Freelancer (2024-Current)</p>
+                    <h2>Architectural Designer</h2>
+                    <p>MBH Architects (2018-Current)</p>
+                    <h2>Interior Designer</h2>
+                    <p>kkplan, South Korea (2016)</p>
+
+                    <br>
+                    <h1>Education</h1>
+                    <h2>University of California, Berkeley </h2>
+                    <p>Extension Program, UX/UI Design (2023-2024)</p>
+                    <h2>San José State University</h2>
+                    <p>Bachelor's Degree, Interior Design (2012-2017)</p>
+                    <h2>Sunhwa Art School</h2>
+                    <p>Department of Classical Music (2007-2010) </p>
+
+                    <br>
+                    <h1>I've been to...</h1>
+                    <h5>Alaska, U.S</h5>
+                    <h5>Hiroshima, Japan</h5>
+                    <h5>Tokyo, Japan</h5>
+                    <h5>Phuket, Thailand</h5>
+                    <h5>Bali, Indonesia</h5>
+                    <h5>Paris, France</h5>
+                    <br>
+                    <h5>and more to explore!</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------Abot Here------------------>
+        <div class="Aboutme">
+            <div class="inline-text">
+                <div class="hello">Hey there, <br> I am Irene Lee!</div>
+                <br>
+                <div class="i-am">Are you looking for a versaile designer who brings a fresh perspective to the table?
+                    <br> As a freelance UX/UI designer with a diverse background in Architecture, interior Design, <br>
+                    and
+                    Graphic Design, I bring a unique blend of creativity and strategic thinking to <br>every project
+                    Armed with a certification in UX/UI design from UC Berkeley Extension <br> Program. From building
+                    strong
+                    brand identities to solving complex design challenges, <br>I've got you covered. Let's collaborate
+                    and
+                    take your project to new heights<br>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <div>
+                    <h1>UX Skills</h1>
+                    <button class="skillButtons">UX Research</button>
+                    <button class="skillButtons">Storyboarding</button>
+                    <button class="skillButtons">Problem Solving</button>
+                    <button class="skillButtons">User Flow</button>
+                    <button class="skillButtons">Typography</button>
+                    <br>
+                    <button class="skillButtons">Usability Testing</button>
+                    <button class="skillButtons">UX Research</button>
+                    <button class="skillButtons">Design Thinking</button>
+                    <button class="skillButtons">Prototyping</button>
+                    <button class="skillButtons">Branding</button>
+                    <br>
+                    <button class="skillButtons">Grids / Composition</button>
+                    <br>
+                    <br>
+                </div>
+
+                <div>
+                    <h1>UX Software Skills</h1>
+                    <button class="skillButtons">Figma</button>
+                    <button class="skillButtons">Miro</button>
+                    <button class="skillButtons">HTML/CSS</button>
+                    <br>
+                    <button class="skillButtons">Java Script</button>
+                    <button class="skillButtons">jQuery</button>
+                    <button class="skillButtons">Bootstrap</button>
+                    <button class="skillButtons">Github</button>
+                    <br>
+                    <br>
+                </div>
+
+                <div>
+                    <h1>Other Design Softwares</h1>
+                    <button class="skillButtons">AutoCAD</button>
+                    <button class="skillButtons">Adobe Creative</button>
+                    <button class="skillButtons">AutoDesk Revit</button>
+                    <br>
+                    <button class="skillButtons">Cinema 4D</button>
+                    <button class="skillButtons">Rhino</button>
+                    <button class="skillButtons">SketchUp</button>
+                    <button class="skillButtons">3D Rendering</button>
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-------------------Footer Here------------------>
+    <div class="footerContainer">
+        <div class="footerEmail">
+            <h4>LXXIRXNX@gmail.com</h4>
+        </div>
+        <div class="letsGetinTouch">
+            <p> Let's get in touch! Read more about me</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="work.css" type="text/css">
+
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 50px;
+            padding: 0;
+            font-family: sans-serif;
+            font-size: 22px;
+        }
+
+        .navbar {
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .navbar ul li {
+            float: right;
+        }
+
+        .navbar ul li a {
+            display: blck;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar-brand {
+            float: left;
+            padding: 20px 60px;
+            text-decoration: none;
+        }
+
+        .navbar ul li a:hover {
+            background-color: none;
+            color: #000DFF;
+        }
+    </style>
+</head>
+
+<body>
+    <!-----------------Navigation Bar Here-------------->
+    <div class="navbar">
+        <a class="navbar-brand" href="index.html">
+            <img src="Logo.png">
+        </a>
+        <ul>
+            <li><a href="contact.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('contacts')">Contacts</a></li>
+            <li><a href="Aboutme.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('about')">About</a></li>
+            <li><a href="work.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('works')">Works</a></li>
+        </ul>
+    </div>
+
+    <!-------------------Works Here------------------>
+    <div class="works-Container">
+        <div class="circles">
+            <div class="blueCircle-UIUX">UX Design</div>
+            <div class="blackCircle-architecture">Architecture<br>& Interior Design</div>
+            <div class="pinkCircle-addendum">Addendum</div>
+        </div>
+    </div>
+
+    <!-------------------Footer Here------------------>
+    <footer class="footerContainer">
+        <div class="footerEmail">
+            <h4>LXXIRXNX@gmail.com</h4>
+        </div>
+        <div class="letsGetinTouch">
+            <p> Let's get in touch! Read more about me</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
