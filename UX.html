@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="UX.css" type="text/css">
+
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 50px;
+            padding: 0;
+            font-family: sans-serif;
+            font-size: 22px;
+        }
+
+        .navbar {
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .navbar ul li {
+            float: right;
+        }
+
+        .navbar ul li a {
+            display: blck;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar-brand {
+            float: left;
+            padding: 20px 60px;
+            text-decoration: none;
+        }
+
+        .navbar ul li a:hover {
+            background-color: none;
+            color: #000DFF;
+        }
+    </style>
+</head>
+
+<body>
+    <!-----------------Navigation Bar Here-------------->
+    <div class="navbar">
+        <a class="navbar-brand" href="index.html">
+            <img src="Images/Logo.png">
+        </a>
+        <ul>
+            <li><a href="contact.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('contacts')">Contacts</a></li>
+            <li><a href="Aboutme.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('about')">About</a></li>
+            <li><a href="work.html" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)"
+                    oneclick="showSection ('works')">Works</a></li>
+        </ul>
+    </div>
+
+    <!--------------Cards Here--------------->
+    <section>
+        <div class="listing-1">
+            <h2>UX case Study</h2>
+        </div>
+
+        <div class="vertical-cards">
+            <div class="card">
+                <img src="Images/UX card 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">01. <br> Australian Koala Foundation</h5>
+                    <p class="card-text"> Redesigning the non-profit organization website for enhancing responsive
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/UX card 2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">02. <br> Responsive Web Redesign: Department of Energy</h5>
+                    <p class="card-text"> Redesigning the non-profit organization website for enhancing responsive
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/UX card 3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">03. <br> F is for Food</h5>
+                    <p class="card-text"> Providing variety of food receipes for individuals who face challenges
+                        with daily cooking and those who prioritize healthy eating</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-------------------Footer Here------------------>
+    <div class="footerContainer">
+        <div class="footerEmail">
+            <h4>LXXIRXNX@gmail.com</h4>
+        </div>
+        <div class="letsGetinTouch">
+            <p> Let's get in touch! Read more about me</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

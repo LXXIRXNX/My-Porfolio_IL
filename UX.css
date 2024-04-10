@@ -1,0 +1,64 @@
+.listing-1 {
+    margin-top: 5%;
+    padding: 15px;
+    font-size: 28px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.card {
+    width: 100%; /* Adjust width of each card */
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    
+    }
+
+.card-body {
+    display: inline-block;
+}
+
+.vertical-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    }
+
+.card-title {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5%;
+    margin-top: 40%;
+}
+
+.card-text {
+    font-size: 28px;
+    font-weight: lighter;
+    margin-left: 5%;
+}
+
+.footerEmail {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-style:bold;
+    margin-top: 300px;
+    margin-left: 60px;
+    position: absolute;
+    }
+    
+.letsGetinTouch {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    margin-top: 355px;
+    margin-left: 60px;
+    position: absolute;
+}
+
